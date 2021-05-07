@@ -26,7 +26,7 @@ loss : MultiBoxLoss (same as original paper[2])
 
 =======
 
-Todo (default)  
+# Todo (default)  
 
 - [X] Make kaist dataset be small size (for working on colab)
 - [X] split(train,val,test) 
@@ -35,8 +35,9 @@ Todo (default)
 - [ ] SSD model 
 - [ ] train 
 
-=======
-NEXT 
+
+
+### NEXT 
 - diverse optimizers; AdamP[3], Madgrad[4]
 - augmentation in object detection
 - Few shot learning in small dataset
