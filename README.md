@@ -21,6 +21,7 @@ Normalization
 initialized with pretrained SSD weights (pre-trained on VOC dataset)  
 [SSD300 trained on VOC](https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth)
 - baseline1
+You can download [here](https://drive.google.com/u/0/uc?export=download&confirm=c3Gk&id=1bvJfF6r_zYl2xZEpYXxgb7jLQHFZ01Qe)
 
 ### parameter
 optimizer : SGD(lr=0.001)  
@@ -44,6 +45,10 @@ loss : MultiBoxLoss (same as original paper[2])
 - augmentation in object detection
 - Few shot learning in small dataset
 
+😁 when i have a time, I wanna think of this topic deeply. 
+- the ways of solving Class Imbalance problems (In this paper , used Hard Negative method for solving this problem)
+  - Online Hard Example Mining [6]
+  - Focal loss[5]
  
 # ETC 
 ## kaist dataset[1]  
@@ -64,4 +69,5 @@ object detection framework : https://github.com/open-mmlab/mmdetection
 - [2] W. Liu et al., “SSD: Single Shot MultiBox Detector.” Accessed: May 07, 2021. [Online]. Available: https://github.com/weiliu89/caffe/tree/ssd.
 - [3] B. Heo et al., “ADAMP: SLOWING DOWN THE SLOWDOWN FOR MO-MENTUM OPTIMIZERS ON SCALE-INVARIANT WEIGHTS Equal contribution * , Works done at Naver AI Lab †.” Accessed: May 07, 2021. [Online]. Available: https://github.com/clovaai/adamp.
 - [4] A. Defazio and S. Jelassi, “Adaptivity without Compromise: A Momentumized, Adaptive, Dual Averaged Gradient Method for Stochastic Optimization,” pp. 1–31, 2021, [Online]. Available: http://arxiv.org/abs/2101.11075.
-
+- [5] T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollár, “Focal Loss for Dense Object Detection.” Accessed: May 11, 2021. [Online]. Available: https://github.com/facebookresearch/Detectron.
+- [6] A. Shrivastava, A. Gupta, and R. Girshick, “Training Region-based Object Detectors with Online Hard Example Mining.” 
