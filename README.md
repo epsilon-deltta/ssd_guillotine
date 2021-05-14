@@ -10,8 +10,12 @@ SSD[2] (Object detection Model) Implementation on Kaist pedestrian multispectral
 
 
 
-## DataAugmentation
-Nothing
+## DataAugmentation/Transforming Method
+- phtometric disortation(randomly adjusts 4-disortation methods(Brightness,contrast,saturation,Hue) with a 50% chance)
+  - Brightness , contrast,saturation : [0.5, 1.5] (random distribution : Uniform)
+- Zoom out (with 50% chance of occurrence)
+- Crop the image (50%)
+- Flip  (50%)
 ## Data Preprocessing
 Normalization
 
