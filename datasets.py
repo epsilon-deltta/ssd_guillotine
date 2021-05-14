@@ -39,10 +39,10 @@ class PascalVOCDataset(Dataset):
 
         # Read objects in this image (bounding boxes, labels, difficulties)
         objects = self.objects[i]
-        boxes = torch.FloatTensor(objects['boxes'])  # (n_objects, 4)
+        boxes  = torch.FloatTensor(objects['boxes'])  # (n_objects, 4)
         labels = torch.LongTensor(objects['labels'])  # (n_objects)
         difficulties = torch.ByteTensor(objects['difficulties'])  # (n_objects)
-
+        
         # Discard difficult objects, if desired
         if not self.keep_difficult:
             boxes = boxes[1 - difficulties]
