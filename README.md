@@ -5,7 +5,7 @@ SSD[2] (Object detection Model) Implementation on Kaist pedestrian multispectral
 - To apply SSD model to Kaist Pedestrain dataset.
 
 ## Run Now ! 
-<a href="https://colab.research.google.com/github/epsilon-deltta/sl-for-dl/blob/master/ssd_guillotine/main.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  
+<a href="https://colab.research.google.com/github/epsilon-deltta/ssd_guillotine/blob/master/main.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  
 
 
 ## Architecture
